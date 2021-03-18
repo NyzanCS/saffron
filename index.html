@@ -600,30 +600,34 @@
         <div class="email">
           <img src="assets/paperplane.svg"/>
           <h2 class="title text-center">Fique por dentro das novidades</h2>
-          <h4 class="subtitle text-center mb-4">
-            Coloque aqui seu melhor email!
-          </h4>
+          <h4 class="subtitle text-center mb-4">Coloque aqui seu melhor email!</h4>
           <form name="news" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="news">
+
+            
             <div class="flex-md-grow-1 pr-md-3 pb-md-0 pb-3">
-              <input 
-                name="email"
-                type="email"
-                class="form-control w-100"
-                id="email_input"
-                placeholder="seu email"
-              />
+                <input name="name" type="text"  class="form-control w-100" placeholder="seu nome"/>
             </div>
+            
+            <div class="flex-md-grow-1 pr-md-3 pb-md-0 pb-3">
+              <input  name="email" type="email" class="form-control w-100" id="email_input" placeholder="seu email"/>
+            </div>
+
+            <div class="flex-md-grow-1 pr-md-3 pb-md-0 pb-3">
+              <textarea name="message"></textarea>
+            </div>
+            
+
+
             <div class="flex-grow-1 flex-md-grow-0">
-              <button
-                type="submit"
-                class=" cdts btn btn-light button mb-3 d-md-inline d-block w-100"
-              >
-                cadastre-se
-              </button>
+            <button type="submit" class=" cdts btn btn-light button mb-3 d-md-inline d-block w-100">Enviar</button>
+
             </div>
           </form>
         </div>
+
+
+
         <div class="rodape logo py-4">
           <div class="row">
             <div class="col-md-6 align-self-center text-md-left text-center ">
@@ -631,21 +635,11 @@
             </div>
             <div class="col-md-6 align-self-center text-right">
               <ul>
-                <!-- <li>
-                  <a href="#"><img src="assets/facebook.svg" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="assets/twitter.svg" /></a>
-                </li> -->
+
                 <li>
                   <a href="https://www.instagram.com/saffron_agencia"><img src="assets/instagram.png" /></a>
                 </li>
-                <!-- <li>
-                  <a href="#"><img src="assets/linkedin.svg" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="assets/youtube.svg" /></a>
-                </li> -->
+
               </ul>
             </div>
           </div>
