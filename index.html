@@ -600,29 +600,33 @@
         <div class="email">
           <img src="assets/paperplane.svg"/>
           <h2 class="title text-center">Fique por dentro das novidades</h2>
-          <h4 class="subtitle text-center mb-4">Coloque aqui seu melhor email!</h4>
+          <h4 class="subtitle text-center">Coloque aqui seu melhor email!</h4>
           <form name="news" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="news">
 
-            
-            <div class="flex-md-grow-1 pr-md-3 pb-md-0 pb-3">
-                <input name="name" type="text"  class="form-control w-100" placeholder="seu nome"/>
-            </div>
-            
-            <div class="flex-md-grow-1 pr-md-3 pb-md-0 pb-3">
-              <input  name="email" type="email" class="form-control w-100" id="email_input" placeholder="seu email"/>
+            <div>
+              <p> *Preencha todos os campos!</p>
             </div>
 
-            <div class="flex-md-grow-1 pr-md-3 pb-md-0 pb-3">
-              <textarea name="message"></textarea>
+            <div class="formulario">
+                <input name="name" type="text"  class="form-control w-100" placeholder="Nome"/>
+            </div>
+            
+            <div class="formulario">
+              <input  name="email" type="email" class="form-control w-100" id="email_input" placeholder="E-mail"/>
+            </div>
+
+            <div class="formulario">
+              <textarea name="message" class="form-control w-100"  placeholder="Digite seu texto aqui!"></textarea>
             </div>
             
 
 
-            <div class="flex-grow-1 flex-md-grow-0">
+            <div class="formulario">
             <button type="submit" class=" cdts btn btn-light button mb-3 d-md-inline d-block w-100">Enviar</button>
-
             </div>
+
+
           </form>
         </div>
 
